@@ -1,7 +1,9 @@
 import requests
 import json
+import os
 
-API_KEY = "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"
+
+API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 
 def predict_health(glucose, haemoglobin, cholesterol):
@@ -36,5 +38,3 @@ def predict_health(glucose, haemoglobin, cholesterol):
     result = response.json()
 
     return result["choices"][0]["message"]["content"]
-
-    # 

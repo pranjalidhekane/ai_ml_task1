@@ -121,8 +121,9 @@ Disease Risk Scoring System
 Cloud Database Integration
 Medical Report Upload Feature
 Deployment on Streamlit Cloud or Render
-Enhanced AI-based Diagnosis Suggestions
-Author
+Enhanced AI-based Diagnosis
+
+Suggestions Author
 
 Pranjali Dhekane
 
